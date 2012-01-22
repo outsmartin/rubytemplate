@@ -6,13 +6,11 @@ group :development do
   gem 'growl'
   gem 'guard-bundler'
   gem 'guard-rspec'
-  gem 'guard-cucumber'
 end
 
 group :development, :test do
   gem 'libnotify'
   gem 'rb-inotify'
-  gem 'cucumber'
   gem 'rspec'
 end
 
